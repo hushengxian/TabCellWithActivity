@@ -15,6 +15,7 @@
 		FE67362A20B3F05E006C577A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67362920B3F05E006C577A /* main.m */; };
 		FE67363420B3F05E006C577A /* TabCellWithActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67363320B3F05E006C577A /* TabCellWithActivityTests.m */; };
 		FE67363F20B3F05E006C577A /* TabCellWithActivityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67363E20B3F05E006C577A /* TabCellWithActivityUITests.m */; };
+		FE67364E20B3F2A7006C577A /* UITableViewCell+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67364D20B3F2A7006C577A /* UITableViewCell+Activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE67363A20B3F05E006C577A /* TabCellWithActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabCellWithActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE67363E20B3F05E006C577A /* TabCellWithActivityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabCellWithActivityUITests.m; sourceTree = "<group>"; };
 		FE67364020B3F05E006C577A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE67364C20B3F2A7006C577A /* UITableViewCell+Activity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Activity.h"; sourceTree = "<group>"; };
+		FE67364D20B3F2A7006C577A /* UITableViewCell+Activity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Activity.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				FE67362520B3F05E006C577A /* LaunchScreen.storyboard */,
 				FE67362820B3F05E006C577A /* Info.plist */,
 				FE67362920B3F05E006C577A /* main.m */,
+				FE67364C20B3F2A7006C577A /* UITableViewCell+Activity.h */,
+				FE67364D20B3F2A7006C577A /* UITableViewCell+Activity.m */,
 			);
 			path = TabCellWithActivity;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				FE67361F20B3F05E006C577A /* ViewController.m in Sources */,
 				FE67362A20B3F05E006C577A /* main.m in Sources */,
+				FE67364E20B3F2A7006C577A /* UITableViewCell+Activity.m in Sources */,
 				FE67361C20B3F05E006C577A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
